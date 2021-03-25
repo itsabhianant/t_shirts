@@ -6,12 +6,18 @@ This is a simple project that asks the user to input the size of their t-shirt a
 
 The best thing about this project is that it only allows valid input for example when the code asks this:
 
-'print("hello world")'
+'''
+
+What size of t-shirt do you want?(S/M/L/XL/XXL): 
+
+'''
 
 or this:
 
 '''
+
 Press y to confirm and n to rechoose your order. Press q to quit
+
 '''
 
 You can only give the asked inputs and not any other inputs making the program less vulnerable to idiots who will try to write 4.8 in the input when the t-shirt's size is asked or give small pp in the input if they are asked to confirm their order.
@@ -19,13 +25,17 @@ You can only give the asked inputs and not any other inputs making the program l
 In case if you by mistake give any other unexpected input the program breaks... just joking it will tell you to :
 
 '''
+
 Please choose correct size (S/M/L/XL/XXL).
+
 '''
 
 or:
 
 '''
+
 Choose only 'y'/'n'/'q' for yes, no and quit respectively: 
+
 '''
 
 and then redirect you to the line which will ask you to give the valid input.
@@ -45,4 +55,5 @@ Yeah I know it's garbage, but what do you expect from a newbie? If you think it'
 **Yes!** there is one and I have left it for the reader to solve.*(I am not lazy, I just don't like to work.)*
 
 ***The bug is :***
+
 Even after confirming an order the program instead of quiting restarts itself. I know I ~~f#cked~~ messed somewhere in the while loop, but I can't figure out where *(Acutally I did,but I want someone to contrbiute to my code :])*. Feel free to make changes in the code and send me a PR.:]
