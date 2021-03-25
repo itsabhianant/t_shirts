@@ -5,8 +5,9 @@ This is a simple project that asks the user to input the size of their t-shirt a
 ## How is this different from other similar projects?
 
 The best thing about this project is that it only allows valid input for example when the code asks this:
-'''
-What size of t-shirt do you want?(S/M/L/XL/XXL): 
+
+'''py
+print("hello world")
 '''
 
 or this:
