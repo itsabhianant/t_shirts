@@ -18,7 +18,7 @@ Press y to confirm and n to rechoose your order. Press q to quit
 
 You can only give the asked inputs and not any other inputs making the program less vulnerable to idiots who will try to write 4.8 in the input when the t-shirt's size is asked or give small pp in the input if they are asked to confirm their order.
 
-In case if you by mistake give any other unexpected input the program breaks... just joking it will tell you to :
+In case if you by mistake give any other unexpected input the program crashes... just joking it will tell you to :
 
 ```
 Please choose correct size (S/M/L/XL/XXL).
