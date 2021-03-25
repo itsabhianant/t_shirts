@@ -6,9 +6,7 @@ This is a simple project that asks the user to input the size of their t-shirt a
 
 The best thing about this project is that it only allows valid input for example when the code asks this:
 
-'''py
-print("hello world")
-'''
+'print("hello world")'
 
 or this:
 
