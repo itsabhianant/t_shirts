@@ -2,7 +2,7 @@
 
 def make_shirts():
     """This will make the shirt with a custom size and message."""
-
+    listOfSizes = ['s', 'm', 'l', 'xl', 'xxl']
     active = True
 
     while active:
@@ -13,38 +13,7 @@ def make_shirts():
         if size == 'q':
             print("\nThanks for visiting:)")
             break
-        
-        elif size == 's':
-            True
-
-        elif size == 'm':
-            True
-
-        elif size == 'l':
-            True
-
-        elif size == 'xl':
-            True
-
-        elif size == 'xxl':
-            True
-
-        elif size == 'S':
-            True
-
-        elif size == 'M':
-            True
-
-        elif size == 'L':
-            True
-
-        elif size == 'XL':
-            True
-
-        elif size == 'XXL':
-            True
-        
-        else:
+        if size.lower() not in listOfSizes:
             print("\nPlease choose correct size (S/M/L/XL/XXL).")
             continue
 
@@ -54,15 +23,16 @@ def make_shirts():
             print("\nThanks for visiting.:)")
             break
 
-        print("\nThis is to confirm your order that you want a tshirt of size: " + size.title() + " and the message printed should be: " + message)
+        print("\nThis is to confirm your order that you want a tshirt of size: " + size.title().upper() + " and the message printed should be: " + message)
         
-        confirmation = input("\nPress y to confirm and n to rechoose your order. Press q to quit")
+        confirmation = input("\nPress y to confirm and n to rechoose your order. Press q to quit ")
         active_2 = True
 
         while active_2:
            
             if confirmation == "y":
                 print("\nThanks for your order.:)") 
+                active = False
                 active_2 = False
 
             elif confirmation == "n":
@@ -71,6 +41,7 @@ def make_shirts():
 
             elif confirmation == "q":
                 print("\nThanks for visiting:)")
+                active = False
                 active_2 = False
                 
             else:
