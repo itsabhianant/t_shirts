@@ -1,3 +1,5 @@
+# This is a program that takes input from you to take an order for customized t-shirts.
+
 def make_shirts():
     """This will make the shirt with a custom size and message."""
 
