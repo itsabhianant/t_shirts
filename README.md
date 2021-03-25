@@ -5,13 +5,13 @@ This is a simple project that asks the user to input the size of their t-shirt a
 ## How is this different from other similar projects?
 
 The best thing about this project is that it only allows valid input for example when the code asks this:
-'''py
+'''
 What size of t-shirt do you want?(S/M/L/XL/XXL): 
 '''
 
 or this:
 
-'''py
+'''
 Press y to confirm and n to rechoose your order. Press q to quit
 '''
 
@@ -19,13 +19,13 @@ You can only give the asked inputs and not any other inputs making the program l
 
 In case if you by mistake give any other unexpected input the program breaks... just joking it will tell you to :
 
-'''py
+'''
 Please choose correct size (S/M/L/XL/XXL).
 '''
 
 or:
 
-'''py
+'''
 Choose only 'y'/'n'/'q' for yes, no and quit respectively: 
 '''
 
