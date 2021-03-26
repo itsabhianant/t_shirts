@@ -44,8 +44,4 @@ Yeah I know it's garbage, but what do you expect from a newbie? If you think it'
 
 ### Is there any problem?
 
-**Yes!** there is one and I have left it for the reader to solve.*(I am not lazy, I just don't like to work.)*
-
-***The problem is :***
-
-Even after confirming an order the program instead of quitting restarts itself. I know I ~~f#cked~~ messed somewhere in the while loop, but I can't figure out where *(Actually I did, but I want someone to contrbiute to my code :])*. Feel free to make changes in the code and send me a PR.:]
+**Yes!** there was one and it has been resolved now.But hey, you can still enhance the program if you want to.
